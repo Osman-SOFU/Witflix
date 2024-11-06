@@ -4,6 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Topic */
 a:hover {
     color: red;
 }
@@ -58,6 +59,7 @@ header .user-panel {
 
 .hamburger-menu {
     position: relative;
+    display: none;
 }
 
 .menu-icon {
@@ -279,10 +281,13 @@ footer h5 {
         display: none;
     }
 
+    .hamburger-menu {
+        display: flex;
+    }
+
     .nav-menu {
         display: block;
     }
-
 
     .main-movie {
         width: 100%;
